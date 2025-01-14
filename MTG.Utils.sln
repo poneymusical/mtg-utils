@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46ACFBA2-1A20-4D3A-9FAB-ECCB3A76F5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.CsvConverter", "src\MTG.CsvConverter\MTG.CsvConverter.csproj", "{69586C79-2345-489C-A70C-560DEB7E0511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.DataModels", "MTG.DataModels\MTG.DataModels.csproj", "{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTG.Comparer", "MTG.Comparer\MTG.Comparer.csproj", "{BFCE7FFD-15AF-491B-8532-D375E338EE78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69586C79-2345-489C-A70C-560DEB7E0511} = {46ACFBA2-1A20-4D3A-9FAB-ECCB3A76F5B5}
+		{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8} = {46ACFBA2-1A20-4D3A-9FAB-ECCB3A76F5B5}
+		{BFCE7FFD-15AF-491B-8532-D375E338EE78} = {46ACFBA2-1A20-4D3A-9FAB-ECCB3A76F5B5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69586C79-2345-489C-A70C-560DEB7E0511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69586C79-2345-489C-A70C-560DEB7E0511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69586C79-2345-489C-A70C-560DEB7E0511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69586C79-2345-489C-A70C-560DEB7E0511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52DA858-DB83-432E-8CA3-FC35D0CBE0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCE7FFD-15AF-491B-8532-D375E338EE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCE7FFD-15AF-491B-8532-D375E338EE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCE7FFD-15AF-491B-8532-D375E338EE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCE7FFD-15AF-491B-8532-D375E338EE78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
